@@ -6,3 +6,87 @@
 }
 
 /* === your rules === */
+body{
+    background-color:#779cee;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0rem;
+    padding: 0rem;
+}
+
+.banner{
+    background-color: #c8b8ff;
+    text-align: center;
+    padding: 2vh;
+    font-size: 1.2rem;
+}
+
+p a {
+    color: #5551ff;
+}
+
+header{
+    background-color: white;
+    text-align: right;
+}
+
+ul{
+    margin: 0rem;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 3vh;
+}
+
+li a {
+    color: black;
+    text-decoration: none;
+}
+
+.bovenkop{
+    padding: 3rem 0rem 1.5rem 3rem;
+    font-size: 1.5rem;
+}
+
+main{
+    min-height: 80vh;
+}
+
+h1{
+    padding: 0rem 0rem 2rem 3rem;
+    font-size: 3rem;
+    width: 60%;
+}
+
+article p {
+    padding: 0rem 0rem 2rem 3rem;
+    width: 30rem;
+    line-height: 1.5rem;
+}
+
+article a {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    margin-left: 3rem;
+    border-radius: 0.5rem;
+}
+
+article{
+    width: 50%;
+    display: inline-block;
+}
+
+.afbeelding{
+    width: 50%;
+    vertical-align: top;
+    display: inline-block;
+    margin-top: 2rem;
+}
+
+img{
+    width: 50%
+}

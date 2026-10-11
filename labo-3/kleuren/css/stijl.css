@@ -4,11 +4,20 @@
 
 /* === your rules === */
 
-body{
-    font-family: Arial, Helvetica, sans-serif;
+body {
     text-align: center;
-    color:white;
-    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: aqua;
+}
+
+h2{
+    letter-spacing: 0.5rem;
+    margin: 2rem
+}
+
+span {
+    margin: 1rem;
 }
 
 ul {
@@ -17,39 +26,33 @@ ul {
     padding: 0;
 }
 
-li {
-    height: 50vh;
-}
-
-h2{
-    letter-spacing: 0.6rem;
-    margin-bottom: 1rem;
-}
-
-span{
-    margin: 0 0.5rem
-}
 .tomato{
     background-color: tomato;
-    padding-top: 11em;
+    height: 50vh;
+    padding: 10rem;
 }
 
 .orangered{
     background-color: orangered;
-    padding-top: 11em;
+    height: 50vh;
+    padding: 10rem;
 }
 
 .coral{
     background-color: coral;
-    padding-top: 11em;
+    height: 50vh;
+    padding: 10rem;
 }
 
 .lightsalmon{
     background-color: lightsalmon;
-    padding-top: 11em;
+    height: 50vh;
+    padding: 10rem;
 }
 
 .darkorange{
     background-color: darkorange;
-    padding-top: 11em;
+    height: 50vh;
+    padding: 10rem;
 }
+
