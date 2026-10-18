@@ -11,10 +11,12 @@
     background-color: #2554ab;
     width: 70vh;
     height: 70vh;
-    margin: 15vh auto;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: auto;
+    margin-top: 15vh;
     padding: 2vh;
     gap: 2vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
 }
 
 .lila{
@@ -28,19 +30,19 @@
 
 .geel{
     background-color: #e7c948;
-    grid-column: 1/2;
 }
 
 .marine{
-    background-color: #13234e; 
-    grid-column: 4/4;
+    background-color: #13234e;
+    grid-column: 4/5;
 }
 
 .olijf{
-    background-color: #ae9310;
+    background-color: #ae9310 ;
     grid-column: 1/4;
 }
 
 .rood{
     background-color: #cd2424;
+    
 }

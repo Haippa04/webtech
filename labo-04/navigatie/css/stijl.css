@@ -67,3 +67,51 @@ li:nth-child(5){
     */
 
 
+
+header {
+    background-color: #1f3a2e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+  
+.logo{
+    color: #e6b53c ;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+
+ul{
+    display: flex;
+    gap: 0.5rem;
+}
+
+
+a{
+    text-decoration: none;
+    color: #f3efe6;
+    padding: 0.75rem 1.25rem;
+}
+
+ul li{
+    list-style: none;
+}
+
+.actief{
+    background-color: #e6b53c;
+    color: #1f3a2e;
+    border-radius: 0.5rem;
+    padding: 0.75rem 1.25rem;
+}
+
+li a:hover, li a:focus{
+    background-color: #e6b53c;
+    border-radius: 0.5rem;
+    padding: 0.75rem 1.25rem;
+    color: #1f3a2e;
+}
