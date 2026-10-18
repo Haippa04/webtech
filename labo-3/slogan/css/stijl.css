@@ -1,9 +1,6 @@
 /* stijl.css - labo 3, slogan (reset.css is linked before this file) */
 
 /* === tokens === */
-:root {
-
-}
 
 /* === your rules === */
 
@@ -51,8 +48,8 @@ h2{
 }
 
 span{
-    border-bottom: 1rem solid orange;
-    border-radius: 70%;
+    border-bottom: 1rem solid gold;
+    border-radius: 0rem;
 }
 
 p{
