@@ -67,38 +67,3 @@ li:nth-child(5){
     */
 
 
-header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1rem 2rem;
-    background-color: #1f3a2e;
-
-}
-
-ul{
-    display: flex;
-    list-style-type: none;
-    gap: 0,5rem;
-}
-
-a{
-    text-decoration: none;
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.logo{
-    color: #e6b53c;
-    font-size: 1.5rem;
-}
-
-.actief, nav a:hover, nav a:focus{
-    background-color: #e6b53c;
-    color: black;
-}
-
-nav a {
-    padding: 0.5rem;
-    border-radius: 0.5rem;
-}

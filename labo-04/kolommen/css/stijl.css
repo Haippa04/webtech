@@ -39,33 +39,35 @@ div:nth-child(3){
 }
     */
 
-
-main{
-    display:grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    height: 100vh;
+main {
+    display: flex;
+    color: white;
+    font-weight: bold;
+    font-size: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 4vw;
+    height: 100vw;
     padding: 10vh 4vw;
-    gap:4vw;
 
 }
 
 div{
-    display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
-    font-size: 2rem;
-    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
 }
 
-div:nth-child(1){
+main :nth-child(1){
     background-color: darkturquoise;
+    flex: 1;
 }
 
-div:nth-child(2){
+main :nth-child(2){
     background-color: darkviolet;
+    flex: 2;
 }
 
-div:nth-child(3){
+main :nth-child(3){
     background-color: deepskyblue;
+    flex: 1;
 }
