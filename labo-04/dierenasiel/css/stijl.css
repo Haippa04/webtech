@@ -9,9 +9,10 @@
 body{
     display: grid;
     grid-template-rows: auto 1fr auto;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     min-height: 100vh;
     background-color: #f7f4ec;
+    line-height: 1.6;
 }
 
 main{
@@ -19,7 +20,8 @@ main{
     display: grid;
     max-height: 100vh;
     max-width: 60rem;
-    margin: 2rem auto;
+    margin: 0 auto;
+    padding: 2rem;
 }
 
 
@@ -58,6 +60,10 @@ nav ul{
     gap: 2rem;
 }
 
+nav ul li a:hover, nav ul li a:focus{
+    text-decoration: underline;
+}
+
 nav ul li a{
     color: white;
 }
@@ -72,16 +78,18 @@ nav ul li a{
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 1.5rem;
+    padding: 0rem;
 }
 
 .kaart {
     background-color: white;
     border-radius: 0.5rem;
-    box-shadow: 0.5rem 0.5rem;
-    padding: 1.4rem;
+    box-shadow: 0.5rem 0.5rem 1rem rgba(0,0,0,0.2);
+    padding: 1.5rem;
     display: flex;
     align-items: flex-start;
     flex-direction: column;
+    justify-content: center;
 }
 
 .uitgelicht{
@@ -90,8 +98,20 @@ nav ul li a{
 
 .knop{
     background-color: #1f3a2e;
+    text-align: center;
     border-radius: 0.25rem;
-    padding: 0.5 1rem;
+    padding: 0.5rem 1rem;
     color:white;
+}
 
+.knop:hover, .knop:focus{
+    background-color: #2b2b2b;
+}
+
+.beschrijving{
+    flex: 1;
+}
+
+h1, h2, h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
