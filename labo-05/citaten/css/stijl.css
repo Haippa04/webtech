@@ -5,3 +5,50 @@
 
 }
 
+.citaten{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 1.5rem;
+}
+
+.citaat{
+    border-left: solid 0.5rem;
+    line-height: 1.5;
+    font-weight: bold;
+    flex: 1 1 18rem;
+    padding: 0.5rem 1rem;
+}
+
+.blauw{
+    color: #1e5bd8;
+}
+
+.roze{
+    color: #e88bb4;
+}
+
+.rood{
+    color: #c51f2a;
+}
+
+.oranje{
+    color: #d98c1a;
+}
+
+.groen{
+    color: #3b7a2a;
+}
+
+.salie{
+    color: #8fb89a;
+}
+
+.paars{
+    color: #7b4fa3;
+}
+
+.grijs{
+    color:  #6b6b6b;
+}
