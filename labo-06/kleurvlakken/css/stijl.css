@@ -8,3 +8,44 @@
 /* === base: narrow screens first === */
 
 /* === media queries: below the base rules === */
+main{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    height: 100vh
+}
+
+
+.rood{
+    background-color: #b90020;
+}
+
+.groen{
+    background-color: #349803;
+}
+
+.geel{
+    background-color: #ffcd00;
+}
+
+.blauw{
+    background-color: #006aff;
+}
+
+@media (min-width: 600px){
+
+    main{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    }
+
+}
+
+@media (min-width: 800px){
+
+    main{
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    }
+
+
+}
