@@ -158,9 +158,8 @@ a{
         padding-top: 2rem;
         text-align: center;
         position: sticky;
-        top: 0;
-        align-self: start;
         height: 100vh;
+        top: 0;
 
 
     }
