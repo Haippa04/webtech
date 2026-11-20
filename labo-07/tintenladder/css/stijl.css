@@ -2,9 +2,91 @@
 
 /* === tokens === */
 :root {
-
+    --hue: 210;
+    --color-paper: hsl(40 30% 97%);
+    --color-inkt: hsl(var(--hue) 25% 12%);
+    --color-muted: hsl(var(--hue) 10% 42%);
+    --font-heading: Georgia, serif;
+    --font-body: Verdana, sans-serif;
 }
 
 /* === base === */
 
 /* === the ten steps: one rule per step === */
+body{
+    display: grid;
+    grid-template-rows: auto 1fr;
+    min-height: 100vh;
+    font-family: var(--font-body);
+    color: var(--color-inkt);
+    background-color: var(--color-paper);
+}
+
+header{
+    padding: 2rem 1rem;
+    font-family: var(--font-heading);
+}
+
+.ladder{
+    display: grid;
+}
+
+h1{
+    font-size: 1.5rem;
+    line-height: 1.2;
+}
+
+header p{
+    font-size: 0.875rem;
+    color: var(--color-muted)
+}
+
+.trede{
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+}
+
+.trede:nth-child(1){
+    background-color: hsl(var(--hue) 55% 95%);
+}
+
+.trede:nth-child(2){
+    background-color: hsl(var(--hue) 55% 85%);
+}
+
+.trede:nth-child(3){
+    background-color: hsl(var(--hue) 55% 75%);
+}
+
+.trede:nth-child(4){
+    background-color: hsl(var(--hue) 55% 65%);
+}
+
+.trede:nth-child(5){
+    background-color: hsl(var(--hue) 55% 55%);
+}
+
+.trede:nth-child(6){
+    background-color: hsl(var(--hue) 55% 45%);
+}
+
+.trede:nth-child(7){
+    background-color: hsl(var(--hue) 55% 35%);
+}
+
+.trede:nth-child(8){
+    background-color: hsl(var(--hue) 55% 25%);
+}
+
+.trede:nth-child(9){
+    background-color: hsl(var(--hue) 55% 15%);
+}
+
+.trede:nth-child(10){
+    background-color: hsl(var(--hue) 55% 5%);
+}
+
+.trede:nth-child(n + 6){
+    color: var(--color-paper);
+}
