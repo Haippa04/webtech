@@ -1,0 +1,97 @@
+/* stijl.css - labo 7, kaaien (reset.css is linked before this file) */
+
+/* === fonts === */
+
+@font-face{
+    font-family: "Fraunces";
+    src: url("../fonts/fraunces-latin-wght-normal.woff2") format("woff2");
+}
+
+/* === tokens === */
+:root {
+--color-surface: hsl(200 30% 97%);
+--color-ink: hsl(205 40% 12%);
+--color-muted: hsl(205 12% 40%);
+--color-accent: hsl(200 70% 32%);
+--color-line: hsl(200 20% 82%);
+--color-overlay: rgb(0 0 0 / 0.55);
+--font-heading: "Fraunces", Georgia, serif;
+--font-body: Verdana, sans-serif;
+--text-s: 0.8rem;
+--text-m: 1rem;
+--text-l: 1.25rem;
+--text-xl: 1.563rem;
+--space-xs: 0.25rem;
+--space-s: 0.5rem;
+--space-m: 1rem;
+--space-l: 2rem;
+--space-xl: 4rem;
+}
+
+/* === base === */
+
+/* === the hero: photo as background, text on a dark panel (7.10, F7.10) === */
+.held{
+    background-image: url(../afbeeldingen/kaaien.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 70svh;
+    padding: clamp(1rem, 5vw, 4rem);
+    
+}
+
+.paneel{
+    background-color: var(--color-overlay);
+    max-width: 36rem;
+    padding: var(--space-l);
+    color: white;
+}
+
+.bovenkop{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: var(--text-s);
+    letter-spacing: 0.12em;
+    margin-bottom: var(--space-s);
+}
+
+h1{
+    font-size: clamp(2rem, 4vw + 1rem, 3.5rem);
+    font-weight: bold;
+    line-height: 1.1;
+    margin-bottom: var(--space-m);
+}
+
+.lead{
+    margin-bottom: var(--space-l);
+}
+
+.knop{
+    background-color: var(--color-accent);
+    padding: 0.6rem;
+    border-radius: 0.4rem;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+
+}
+
+.knop:hover{
+    color: var(--color-accent);
+    background-color: white;
+}
+/* === main, aside with a corner decoration, footer with a repeating tile === */
+
+main{
+    width: 64rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    padding: var(--space-xl) var(--space-m);
+    gap: var(--space-l);
+}
+
+h2{
+    font-size: var(--text-xl);
+}
